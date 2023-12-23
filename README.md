@@ -12,7 +12,7 @@
 - コマンド実行後、確認画面が出た場合は y で可
 
 ```bash
-docker compose run --rm web rails new . -d=postgresql -j=esbuild -c=sass
+docker compose run --rm web rails new . -d=postgresql -j=esbuild -c=bootstrap
 ```
 
 ### database.yml の編集
